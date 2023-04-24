@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h1>Главная страница блога</h1>
+        <h1>Домашняя страница</h1>
 
         <section class="articles">
             @foreach($posts as $post)

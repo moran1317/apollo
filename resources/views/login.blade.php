@@ -7,14 +7,16 @@
             @csrf
 
             <div class="inner-wrap">
-                <label>Email
+                <label>еmail
                     <input type="text" name="email" value="{{ old('email') }}">
                 </label>
                 @error('email')
                 <small>{{$message}}</small>
                 @enderror
+            </div>
 
-                <label>Password
+            <div class="inner-wrap">
+                <label>Пароль
                     <input type="password" name="password" value="{{ old('password') }}">
                 </label>
                 @error('password')
